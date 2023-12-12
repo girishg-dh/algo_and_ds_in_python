@@ -1,33 +1,33 @@
 # grokking_python
 grokking_python
 ## Repo for Grokking Python
-- [Binary Search](./binary_search)
-📦binary_search
- ┣ 📜binary_search.py
- ┣ 📜binarysearch.py
- ┣ 📜find_first_bad_version.py
- ┗ 📜rotated_sorted_array.py
-- [Linked lists](./linked_list)
-📦linked_list
- ┣ 📜linked_list.py
- ┗ 📜linked_list_node.py
-- [Stacks](./stacks)
-📦stacks
- ┣ 📜basicCalculator.py
- ┣ 📜largest_rectangle.py
- ┣ 📜queue_using_stack.py
- ┣ 📜reversePolishNotation.py
- ┣ 📜stack.py
- ┗ 📜valid_paranthesis.py
-- [Trees](./trees)
-- [Two pointer approaches](./two_pointer)
-📦two_pointer
- ┣ 📜atoi.py
- ┣ 📜binarysum.py
- ┣ 📜isPalindrome.py
- ┣ 📜rain_water.py
- ┣ 📜sort_color.py
- ┗ 📜water_container.py
-- [Matrix Traversal](./matrices/)
-📦matrices
- ┗ 📜spiral_matrix.py
+- [Binary Search](./binary_search) <br />
+📦binary_search <br />
+ ┣ 📜binary_search.py <br />
+ ┣ 📜binarysearch.py <br />
+ ┣ 📜find_first_bad_version.py<br />
+ ┗ 📜rotated_sorted_array.py<br />
+- [Linked lists](./linked_list)<br />
+📦linked_list<br />
+ ┣ 📜linked_list.py<br />
+ ┗ 📜linked_list_node.py<br />
+- [Stacks](./stacks)<br />
+📦stacks<br />
+ ┣ 📜basicCalculator.py<br />
+ ┣ 📜largest_rectangle.py<br />
+ ┣ 📜queue_using_stack.py<br />
+ ┣ 📜reversePolishNotation.py<br />
+ ┣ 📜stack.py<br />
+ ┗ 📜valid_paranthesis.py<br />
+- [Trees](./trees)<br />
+- [Two pointer approaches](./two_pointer)<br />
+📦two_pointer<br />
+ ┣ 📜atoi.py<br />
+ ┣ 📜binarysum.py<br />
+ ┣ 📜isPalindrome.py<br />
+ ┣ 📜rain_water.py<br />
+ ┣ 📜sort_color.py<br />
+ ┗ 📜water_container.py<br />
+- [Matrix Traversal](./matrices/)<br />
+📦matrices<br />
+ ┗ 📜spiral_matrix.py<br />
