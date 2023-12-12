@@ -6,3 +6,5 @@ grokking_python
 - [Stacks](./stacks)
 - [trees](./trees)
 - [Two pointer approaches](./two_pointer)
+- [Matrix Traversal](./matrices/)
+
