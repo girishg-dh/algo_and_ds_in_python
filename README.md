@@ -4,7 +4,6 @@ grokking_python
 - [Binary Search](./binary_search)
 - [Linked lists](./linked_list)
 - [Stacks](./stacks)
-- [trees](./trees)
+- [Trees](./trees)
 - [Two pointer approaches](./two_pointer)
 - [Matrix Traversal](./matrices/)
-
