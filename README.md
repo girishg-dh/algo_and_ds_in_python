@@ -20,6 +20,15 @@ grokking_python
  ┣ 📜stack.py<br />
  ┗ 📜valid_paranthesis.py<br />
 - [Trees](./trees)<br />
+├─ BinaryTree.py<br />
+├─ InvertTree.py<br />
+├─ TreeNode.py <br />
+├─ balanced_trees.py<br />
+├─ tree_helper.py<br />
+├─ tree_diameter.py<br />
+├─ max_depth_of_btree.py<br />
+├─ minimum_height_tree.py<br />
+└─ serialize_deserialize_tree.py<br />
 - [Two pointer approaches](./two_pointer)<br />
 📦two_pointer<br />
  ┣ 📜atoi.py<br />
