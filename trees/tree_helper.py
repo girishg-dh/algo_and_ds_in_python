@@ -10,7 +10,7 @@ def createTree(node_list: List):
             tree_nodes.append(TreeNode(node))
         else:
             tree_nodes.append(None)
-    return createNodeTree(node_list)
+    return createNodeTree(tree_nodes)
 
 def createNodeTree(node_list):
     return BinaryTree(node_list)
