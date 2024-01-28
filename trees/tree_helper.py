@@ -1,13 +1,18 @@
 from TreeNode import *
+from BinaryTree import *
 from typing import List
 
-class TreeHelper:
-    def __init__(self, node_list) -> None:
-        self.tree_nodes = self.createTrees(self, node_list)
 
-    def createTrees(self, node_list: List):
-        tree_nodes = []
-        for node in node_list:
+def createTree(node_list: List):
+    tree_nodes = []
+    for node in node_list:
+        if node is not None:
             tree_nodes.append(TreeNode(node))
-        return tree_nodes
+        else:
+            tree_nodes.append(None)
+    return createNodeTree(node_list)
+
+def createNodeTree(node_list):
+    return BinaryTree(node_list)
+
 
