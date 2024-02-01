@@ -3,7 +3,7 @@ from BinaryTree import *
 from typing import List
 
 
-def createTree(node_list: List):
+def createTree(node_list: List)->BinaryTree:
     tree_nodes = []
     for node in node_list:
         if node is not None:
@@ -12,7 +12,7 @@ def createTree(node_list: List):
             tree_nodes.append(None)
     return createNodeTree(tree_nodes)
 
-def createNodeTree(node_list):
+def createNodeTree(node_list: List[TreeNode]) -> BinaryTree:
     return BinaryTree(node_list)
 
 
