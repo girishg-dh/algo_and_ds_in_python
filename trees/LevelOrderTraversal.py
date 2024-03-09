@@ -77,7 +77,6 @@ def main():
         if i > 0:
             print()
         print(i + 1, ".\tBinary Tree")
-       # display_tree(test_cases_roots[i])
         print("\n\tLevel order traversal: ")
         print("\t",level_order_traversal(test_cases_roots[i]))
         print("\n" + '-' * 100)
