@@ -1,3 +1,15 @@
+'''
+Consider an m x n grid containing cells with three potential values:
+0: which indicates an unoccupied cell.
+1: representing a freshly picked orange.
+2: indicating a rotten orange.
+Any fresh orange that is 4–directionally adjacent to a rotten orange will also turn rotten with each passing minute.
+
+Your task is to determine the minimum time required for all cells to have rotten oranges. In case, this objective cannot be achieved,
+return -1
+'''
+
+
 from collections import deque
 
 def min_minutes_to_rot(grid):
@@ -12,7 +24,7 @@ def min_minutes_to_rot(grid):
                 current.append((i,j))
             if grid[i][j] == 1:
                 hasone += 1
-            
+
     while len(current)>0:
         for _ in range(len(current)):
             c_i, c_j = current.popleft()
