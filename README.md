@@ -20,15 +20,24 @@ grokking_python
  ┣ 📜stack.py<br />
  ┗ 📜valid_paranthesis.py<br />
 - [Trees](./trees)<br />
-├─ BinaryTree.py<br />
-├─ InvertTree.py<br />
-├─ TreeNode.py <br />
-├─ balanced_trees.py<br />
-├─ tree_helper.py<br />
-├─ tree_diameter.py<br />
-├─ max_depth_of_btree.py<br />
-├─ minimum_height_tree.py<br />
-└─ serialize_deserialize_tree.py<br />
+ ┣ 📜BinaryTree.py
+ ┣ 📜InvertTree.py
+ ┣ 📜LevelOrderTraversal.py
+ ┣ 📜LowestCommonAncestor.py
+ ┣ 📜LowestCommonAncestorUnordered.py
+ ┣ 📜RottingOranges.py
+ ┣ 📜TreeNode.py
+ ┣ 📜Validate_BST.py
+ ┣ 📜WordLadder.py
+ ┣ 📜balanced_trees.py
+ ┣ 📜btree_right_view.py
+ ┣ 📜max_depth_of_btree.py
+ ┣ 📜minimum_height_tree.py
+ ┣ 📜porder_iorder_tree_builder.py
+ ┣ 📜serialize_deserialize_tree.py
+ ┣ 📜tree_diameter.py
+ ┣ 📜tree_helper.py
+ ┗ 📜visualize_tree.py
 - [Two pointer approaches](./two_pointer)<br />
 📦two_pointer<br />
  ┣ 📜atoi.py<br />
