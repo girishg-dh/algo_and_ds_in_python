@@ -15,7 +15,7 @@ def longest_palindrome(s: str) -> int:
 def main():
     inputs = ["sfbaisdugfiubasdjFSDLBJS", 'abccccdddeeeeeeff', 'cool', 'GooooooOOOOODdddD' , 'REaccaR' , 'AbcDeFGhAachDeFG']
     for item in inputs:
-        print(longest_palindrome(item))
+        print('Length of longest plaindrome is {:>2}'.format(longest_palindrome(item)))
 
 if __name__=="__main__":
     main()
