@@ -6,8 +6,8 @@ def is_anagram(left: str, right: str)-> bool:
 
 
 def main():
-    left = ['anagram','spare','heart', 'super']
-    right = ['nagaram','pears', 'earth', 'upper']
+    left = ['anagram','spare','heart', 'super', "listen", "race", "elbow", "cat", "inch"]
+    right = ['nagaram','pears', 'earth', 'upper', "silent", "cares", "below", "act", "chin"]
     for i, k in enumerate(left):
         print('{} and {} are{} anagrams'.format(left[i], right[i], "" if is_anagram(left[i], right[i]) else " not"))
 
