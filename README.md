@@ -9,12 +9,18 @@ grokking_python
  ┗ 📜rotated_sorted_array.py<br />
 - [Heaps, Hash, Tracking](./heaps_hashing_tracking) <br />
 📦heaps_hashing_tracking <br />
- ┣ 📜AnagramChecker.py <br />
- ┣ 📜ContainsDuplicate.py <br />
- ┣ 📜LongestPalindrome.py <br />
- ┣ 📜MajortyItem.py <br />
- ┣ 📜RansomNote.py <br />
- ┗ 📜TargetSumFromArray.py <br />
+ ┣ 📜AnagramChecker.py<br />
+ ┣ 📜AnagramFinder.py<br />
+ ┣ 📜BinaryTree.py<br />
+ ┣ 📜ContainsDuplicate.py<br />
+ ┣ 📜KNearest.py<br />
+ ┣ 📜KSmallestBST.py<br />
+ ┣ 📜LongestPalindrome.py<br />
+ ┣ 📜MajortyItem.py<br />
+ ┣ 📜Point.py<br />
+ ┣ 📜RansomNote.py<br />
+ ┣ 📜TargetSumFromArray.py<br />
+ ┗ 📜TreeNode.py<br />
 - [Linked lists](./linked_list)<br />
 📦linked_list<br />
  ┣ 📜linked_list.py<br />
