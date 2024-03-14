@@ -9,22 +9,34 @@ grokking_python
  ┗ 📜rotated_sorted_array.py<br />
 - [Heaps, Hash, Tracking](./heaps_hashing_tracking) <br />
 📦heaps_hashing_tracking <br />
- ┣ 📜AnagramChecker.py<br />
- ┣ 📜AnagramFinder.py<br />
- ┣ 📜BinaryTree.py<br />
- ┣ 📜ContainsDuplicate.py<br />
- ┣ 📜KNearest.py<br />
- ┣ 📜KSmallestBST.py<br />
- ┣ 📜LongestPalindrome.py<br />
- ┣ 📜MajortyItem.py<br />
- ┣ 📜Point.py<br />
- ┣ 📜RansomNote.py<br />
- ┣ 📜TargetSumFromArray.py<br />
- ┗ 📜TreeNode.py<br />
+ ┣ 📜AnagramChecker.py <br />
+ ┣ 📜AnagramFinder.py <br />
+ ┣ 📜BinaryTree.py <br />
+ ┣ 📜ContainsDuplicate.py <br />
+ ┣ 📜KNearest.py <br />
+ ┣ 📜KSmallestBST.py <br />
+ ┣ 📜LongestPalindrome.py <br />
+ ┣ 📜MajortyItem.py <br />
+ ┣ 📜MedianOfStream.py <br />
+ ┣ 📜MinimumMachineRequired.py <br />
+ ┣ 📜Point.py <br />
+ ┣ 📜RansomNote.py <br />
+ ┣ 📜TargetSumFromArray.py <br />
+ ┣ 📜TreeNode.py <br />
+ ┣ 📜max_heap.py <br />
+ ┗ 📜min_heap.py <br />
 - [Linked lists](./linked_list)<br />
 📦linked_list<br />
+ ┣ 📜detect_node.py<br />
  ┣ 📜linked_list.py<br />
- ┗ 📜linked_list_node.py<br />
+ ┣ 📜linked_list_node.py<br />
+ ┣ 📜print_list.py<br />
+ ┗ 📜reverse_linked_list.py<br />
+ - [Merge Intervals](./merge_intervals)<br />
+ 📦merge_intervals
+ ┣ 📜InsertInterval.py
+ ┣ 📜MergeInterval.py
+ ┗ 📜TaskScheduler.py
 - [Stacks](./stacks)<br />
 📦stacks<br />
  ┣ 📜basicCalculator.py<br />
