@@ -10,12 +10,12 @@ Given the two input values, tasks and n, find the least number of units of time 
 from collections import Counter
 
 def least_time(tasks, n):
-    c = Counter(tasks)
+    c = Counter(tasks).most_common()
     cool_off_time = dict()
-    max_freq = c.popitem()[1]
+    max_freq = c.pop(0)[1]
     idle_time = (max_freq - 1) * n
     while c and idle_time > 0:
-        idle_time -= min(max_freq -1, c.popitem()[1])
+        idle_time -= min(max_freq -1, c.pop(0)[1])
     idle_time = max(0, idle_time)
     return len(tasks) + idle_time
 
@@ -27,8 +27,9 @@ def main():
                   ['A', 'A', 'A', 'B', 'B', 'C', 'C'],
                   ['S', 'I', 'V', 'U', 'W', 'D', 'U', 'X'],
                   ['M', 'A', 'B', 'M', 'A', 'A', 'Y', 'B', 'M'],
-                  ['A', 'K', 'X', 'M', 'W', 'D', 'X', 'B', 'D', 'C', 'O', 'Z', 'D', 'E', 'Q']]
-    all_ns = [2, 1, 0, 3, 3]
+                  ['A', 'K', 'X', 'M', 'W', 'D', 'X', 'B', 'D', 'C', 'O', 'Z', 'D', 'E', 'Q'],
+                  ["A","B","C","O","Q","C","Z","O","X","C","W","Q","Z","B","M","N","R","L","C","J"]]
+    all_ns = [2, 1, 0, 3, 3, 10]
 
     for i in range(len(all_tasks)):
         print(i+1, '.', '\tTasks: ', all_tasks[i], sep='')
