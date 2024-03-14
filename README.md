@@ -33,10 +33,10 @@ grokking_python
  ┣ 📜print_list.py<br />
  ┗ 📜reverse_linked_list.py<br />
  - [Merge Intervals](./merge_intervals)<br />
- 📦merge_intervals
- ┣ 📜InsertInterval.py
- ┣ 📜MergeInterval.py
- ┗ 📜TaskScheduler.py
+ 📦merge_intervals<br />
+ ┣ 📜InsertInterval.py<br />
+ ┣ 📜MergeInterval.py<br />
+ ┗ 📜TaskScheduler.py<br />
 - [Stacks](./stacks)<br />
 📦stacks<br />
  ┣ 📜basicCalculator.py<br />
