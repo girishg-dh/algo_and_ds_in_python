@@ -1,9 +1,35 @@
-from linked_list.linked_list import LinkedList
-from linked_list.linked_list_node import LinkedListNode
-from linked_list.print_list import print_list_with_forward_arrow
+from linked_list_nodes import LinkedListNode
+from linked_list import LinkedList
+from print_list import print_list_with_forward_arrow
 
 
 
+def merge_two_lists(head1: LinkedListNode, head2: LinkedListNode) -> LinkedListNode:
+    """_summary_
+
+    Args:
+        head1 (LinkedListNode): _description_
+        head2 (LinkedListNode): _description_
+
+    Returns:
+        LinkedListNode: _description_
+    """
+    dummy = LinkedListNode(-1)
+    prev = dummy
+    while head1 and head2:
+        if head1.data <= head2.data:
+            prev.next = head1
+            head1 = head1.next
+
+        else:
+            prev.next = head2
+            head2 = head2.next
+        prev = prev.next
+    if head1:
+        prev.next = head1
+    elif head2:
+        prev.next = head2
+    return dummy.next
 
 
 
