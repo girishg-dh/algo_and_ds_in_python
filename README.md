@@ -26,14 +26,14 @@ grokking_python
  ┣ 📜max_heap.py <br />
  ┗ 📜min_heap.py <br />
 - [K Way Merge](./k_way_merge)<br />
-📦k_way_merge
- ┣ 📜MergeKLists.py
- ┣ 📜MergeTwoSortedList.py
- ┣ 📜linked_list.py
- ┣ 📜linked_list_nodes.py
- ┣ 📜linked_list_reversal.py
- ┣ 📜linked_list_traversal.py
- ┗ 📜print_list.py
+📦k_way_merge <br />
+ ┣ 📜MergeKLists.py <br />
+ ┣ 📜MergeTwoSortedList.py <br />
+ ┣ 📜linked_list.py <br />
+ ┣ 📜linked_list_nodes.py <br />
+ ┣ 📜linked_list_reversal.py <br />
+ ┣ 📜linked_list_traversal.py <br />
+ ┗ 📜print_list.py <br />
 - [Linked lists](./linked_list)<br />
 📦linked_list<br />
  ┣ 📜detect_node.py<br />
