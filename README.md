@@ -84,3 +84,9 @@ grokking_python
 - [Matrix Traversal](./matrices/)<br />
 📦matrices<br />
  ┗ 📜spiral_matrix.py<br />
+
+┗ 📜circular_array.py <br />
+┗ 📜happy_number.py <br />
+┗ 📜product_except_self.py <br />
+┗ 📜string_evaluation.py <br />
+┗ 📜target_sum_of_three_int.py <br />
