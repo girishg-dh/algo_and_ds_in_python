@@ -25,6 +25,15 @@ grokking_python
  ┣ 📜TreeNode.py <br />
  ┣ 📜max_heap.py <br />
  ┗ 📜min_heap.py <br />
+- [K Way Merge](./k_way_merge)<br />
+📦k_way_merge
+ ┣ 📜MergeKLists.py
+ ┣ 📜MergeTwoSortedList.py
+ ┣ 📜linked_list.py
+ ┣ 📜linked_list_nodes.py
+ ┣ 📜linked_list_reversal.py
+ ┣ 📜linked_list_traversal.py
+ ┗ 📜print_list.py
 - [Linked lists](./linked_list)<br />
 📦linked_list<br />
  ┣ 📜detect_node.py<br />
