@@ -89,4 +89,9 @@ grokking_python
 - [Matrix Traversal](./matrices/)<br />
 📦matrices<br />
  ┗ 📜spiral_matrix.py<br />
-
+- [Back Tracking](./back_tracking/)<br />
+📦back_tracking<br />
+ ┣ 📜FloodFill.py<br />
+ ┣ 📜WordSearchInGrid.py<br />
+ ┣ 📜neighbours.py<br />
+ ┗ 📜stack.py<br />
