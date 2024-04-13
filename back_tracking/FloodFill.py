@@ -1,3 +1,16 @@
+'''Statement
+We are given the following values as input to begin with:
+
+The coordinates of a source cell, i.e., sr and sc.
+
+A target value, target.
+(m×n) grid.
+
+Our task is to perform flood fill by updating the values of the four directionally connected cells, which have the same value as the source cell with the target value.
+
+How to perform flood fill:. We perform flood fill on its neighboring cells only if they have the same source value as this cell. Once all adjacent cells are updated, return the new grid after performing flood fill. If no neighboring cell has a value equal to the source cell, only update the source cell with the target value and return the updated grid.
+'''
+
 import time
 
 def timeit(method):
