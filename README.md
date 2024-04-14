@@ -100,4 +100,9 @@ grokking_python
  ┣ 📜LetterCombination.py<br />
  ┣ 📜SubSets.py<br />
  ┗ 📜WordPermutations.py<br />
- - [Dynamic Programing](./d)
+ - [Dynamic Programing](./dynamic_programing/)
+📦dynamic_programing<br />
+ ┣ 📜ClimbingSteps.py<br />
+ ┣ 📜CoinChange.py<br />
+ ┣ 📜CombinationSum.py<br />
+ ┗ 📜MatrixMinDistanceToZero.py<br />
