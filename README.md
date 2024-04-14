@@ -95,3 +95,8 @@ grokking_python
  ┣ 📜WordSearchInGrid.py<br />
  ┣ 📜neighbours.py<br />
  ┗ 📜stack.py<br />
+ - [Subsets](./subsets/)
+ 📦subsets<br />
+ ┣ 📜LetterCombination.py<br />
+ ┣ 📜SubSets.py<br />
+ ┗ 📜WordPermutations.py<br />
