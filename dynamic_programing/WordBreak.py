@@ -1,4 +1,19 @@
-
+def word_break(s, word_dict):
+    """
+    :type s: str
+    :type word_dict: List[str]
+    :rtype: bool
+    """
+    n = len(s)
+    dp = [False] * (n+1)
+    dp[0] = True
+    for i in range(1, n+1):
+        for j in range(i):
+            if s[j:i] in word_dict:
+                if dp[j] == True:
+                    dp[i] = True
+                    break
+    return dp[n]
 
 # Driver Code
 def main():
@@ -18,6 +33,13 @@ def main():
         print_possible_combinations(s[i], word_dict)
         print("\nOutput: " + str(word_break(str(s[i]), word_dict)))
         print("-" * 100)
+
+def print_possible_combinations(s, word_dict):
+    print("The possible combinations are:\n")
+    for i in range(len(word_dict)):
+        if word_dict[i] in s:
+            print(word_dict[i])
+
 
 if __name__ == '__main__':
     main()
