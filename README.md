@@ -106,4 +106,9 @@ grokking_python
  ┣ 📜CoinChange.py<br />
  ┣ 📜CombinationSum.py<br />
  ┣ 📜LongestPalindrome.py<br />
- ┗ 📜MatrixMinDistanceToZero.py<br />
+ ┣ 📜MatrixMinDistanceToZero.py<br />
+ ┣ 📜MaximumProfitJobScheduling.py<br />
+ ┣ 📜MaximumSumContigueousSubArray.py<br />
+ ┣ 📜PartitionEqualSubsetSum.py<br />
+ ┣ 📜UniquePathGridTraversal.py<br />
+ ┗ 📜WordBreak.py<br />
