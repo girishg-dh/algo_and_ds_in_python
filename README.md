@@ -113,9 +113,12 @@ grokking_python
  ┣ 📜UniquePathGridTraversal.py<br />
  ┗ 📜WordBreak.py<br />
  - [Advanced Data Structure](./advanced_data_structure/)
-📦advanced_data_structure
- ┣ 📂Trie<br />
- ┗ 📂graphs<br />
+ 📦advanced_data_structure<br />
+ ┣ 📂graphs<br />
  ┃ ┣ 📜CloneNode.py<br />
  ┃ ┣ 📜graph_utility.py<br />
  ┃ ┗ 📜node.py<br />
+ ┗ 📂trie<br />
+ ┃ ┣ 📜trie.py<br />
+ ┃ ┣ 📜trie_driver.py<br />
+ ┃ ┗ 📜trie_node.py<br />
