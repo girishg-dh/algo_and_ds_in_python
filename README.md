@@ -95,12 +95,12 @@ grokking_python
  ┣ 📜WordSearchInGrid.py<br />
  ┣ 📜neighbours.py<br />
  ┗ 📜stack.py<br />
- - [Subsets](./subsets/)
+ - [Subsets](./subsets/)<br />
  📦subsets<br />
  ┣ 📜LetterCombination.py<br />
  ┣ 📜SubSets.py<br />
  ┗ 📜WordPermutations.py<br />
- - [Dynamic Programing](./dynamic_programing/)
+ - [Dynamic Programing](./dynamic_programing/)<br />
 📦dynamic_programing<br />
  ┣ 📜ClimbingSteps.py<br />
  ┣ 📜CoinChange.py<br />
@@ -112,7 +112,7 @@ grokking_python
  ┣ 📜PartitionEqualSubsetSum.py<br />
  ┣ 📜UniquePathGridTraversal.py<br />
  ┗ 📜WordBreak.py<br />
- - [Advanced Data Structure](./advanced_data_structure/)
+ - [Advanced Data Structure](./advanced_data_structure/)<br />
  📦advanced_data_structure<br />
  ┣ 📂graphs<br />
  ┃ ┣ 📜CloneNode.py<br />
