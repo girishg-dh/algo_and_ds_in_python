@@ -114,11 +114,11 @@ grokking_python
  ┗ 📜WordBreak.py<br />
  - [Advanced Data Structure](./advanced_data_structure/)<br />
  📦advanced_data_structure<br />
- ┣ 📂graphs<br />
+ ┣ 📂[graphs](./advanced_data_structure/graphs/)<br />
  ┃ ┣ 📜CloneNode.py<br />
  ┃ ┣ 📜graph_utility.py<br />
  ┃ ┗ 📜node.py<br />
- ┗ 📂trie<br />
+ ┗ 📂[trie](./advanced_data_structure/trie/)<br />
  ┃ ┣ 📜trie.py<br />
  ┃ ┣ 📜trie_driver.py<br />
  ┃ ┗ 📜trie_node.py<br />
