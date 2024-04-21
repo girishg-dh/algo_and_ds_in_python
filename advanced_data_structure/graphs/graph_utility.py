@@ -18,13 +18,13 @@ def create_graph( data ):
         nodes.append(Node(i+1))
 
     for i, node in enumerate(nodes):
-        for neighbor in data[i]:
-            node.neighbors.append(nodes[neighbor-1])
+        for neighbour in data[i]:
+            node.neighbours.append(nodes[neighbour-1])
     return nodes[0]
 
 def create_2D_list(root):
     """
-    A function to create a 2D list based on the input node data and its neighbors.
+    A function to create a 2D list based on the input node data and its neighbours.
 
     Parameters:
     root (Node): The root node of the graph.
@@ -42,11 +42,11 @@ def create_2D_list(root):
     while queue:
         node = queue.pop(0)
         neighbours = []
-        for neighbor in node.neighbors:
-            neighbours.append(visited.get(neighbor, neighbor).data)
-            if neighbor not in visited and neighbor not in queue:
-                visited[neighbor] = neighbor
-                queue.append(neighbor)
+        for neighbour in node.neighbours:
+            neighbours.append(visited.get(neighbour, neighbour).data)
+            if neighbour not in visited and neighbour not in queue:
+                visited[neighbour] = neighbour
+                queue.append(neighbour)
         neighbours.sort()
         if node not in node_index:
             node_index[node] = len(graph)
@@ -71,10 +71,10 @@ def print_graph_rec(root, visited_nodes):
         return
     visited_nodes.add(root)
     print("\t", root.data, end=": { ")
-    for n in root.neighbors:
+    for n in root.neighbours:
         print(str(n.data), end=" ")
     print("}")
-    for n in root.neighbors:
+    for n in root.neighbours:
         print_graph_rec(n, visited_nodes)
 
 def print_graph(root):
