@@ -112,3 +112,10 @@ grokking_python
  ┣ 📜PartitionEqualSubsetSum.py<br />
  ┣ 📜UniquePathGridTraversal.py<br />
  ┗ 📜WordBreak.py<br />
+ - [Advanced Data Structure](./advanced_data_structure/)
+📦advanced_data_structure
+ ┣ 📂Trie<br />
+ ┗ 📂graphs<br />
+ ┃ ┣ 📜CloneNode.py<br />
+ ┃ ┣ 📜graph_utility.py<br />
+ ┃ ┗ 📜node.py<br />
