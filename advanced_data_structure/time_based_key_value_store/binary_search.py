@@ -10,3 +10,5 @@ def binary_search(array, key):
             low = mid + 1
         else:
             high = mid - 1
+    # If the key is not found, return the index of the largest element smaller than the key
+    return high
