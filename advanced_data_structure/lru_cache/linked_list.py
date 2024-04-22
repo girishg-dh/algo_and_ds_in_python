@@ -10,6 +10,13 @@ class LinkedList:
 
     # move_to_head will move the given node to head
     def move_to_head(self, node):
+        """
+        To move the given node to the head of the linked list.
+        If the provided node is None, return without any action.
+        Delinks the node from its current position and updates the connections accordingly.
+        If the node is the head or tail of the list, adjusts the head and tail pointers accordingly.
+        Inserts the node at the head of the list if it's not empty.
+        """
         # If node is None, return
         if not node:
             return
@@ -48,6 +55,15 @@ class LinkedList:
 
     # Insert_at_head will insert the given pair at head
     def insert_at_head(self, pair):
+        """
+        Inserts a new node with the given pair at the head of the linked list.
+
+        Parameters:
+            pair (tuple): A tuple containing the first and second values of the node.
+
+        Returns:
+            None
+        """
         new_node = LinkedListNode(pair)
         if not self.head:
             self.head = new_node
@@ -88,6 +104,15 @@ class LinkedList:
     
     # remove_node will remove the given node from the LinkedList
     def remove_node(self, node):
+        """
+        Remove the given node from the LinkedList.
+
+        Parameters:
+            node: Node to be removed from the LinkedList.
+
+        Returns:
+            None
+        """
         # If node is None, return
         if not node:
             return
@@ -114,6 +139,15 @@ class LinkedList:
 
     # remove_node will remove the given node from the LinkedList
     def remove(self, pair):
+        """
+        Removes a node from the linked list that contains the given pair.
+
+        Parameters:
+            pair (tuple): A tuple containing the first and second values of the node.
+
+        Returns:
+            None
+        """
         # 
         i = self.get_head()
         while i:
