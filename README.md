@@ -1,6 +1,6 @@
-# grokking_python
-My solutions to some common data structure and algorithm based problems
-## Repo for Grokking Python
+# Algorithm and Data Structures
+#### My solutions to some common data structure and algorithm based problems
+## Content List
 - [Misc](./misc/)<br />
 📦misc<br />
  ┣ 📜circular_array.py<br />
