@@ -1,8 +1,8 @@
 # grokking_python
 grokking_python
 ## Repo for Grokking Python
-- [Misc](./misc/)
-📦misc
+- [Misc](./misc/)<br />
+📦misc<br />
  ┣ 📜circular_array.py<br />
  ┣ 📜happy_number.py<br />
  ┣ 📜product_except_self.py<br />
