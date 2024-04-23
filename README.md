@@ -1,11 +1,13 @@
 # grokking_python
 grokking_python
 ## Repo for Grokking Python
-┣ 📜circular_array.py <br />
-┣ 📜happy_number.py <br />
-┣ 📜product_except_self.py <br />
-┣ 📜string_evaluation.py <br />
-┗ 📜target_sum_of_three_int.py <br />
+- [Misc](./misc/)
+📦misc
+ ┣ 📜circular_array.py<br />
+ ┣ 📜happy_number.py<br />
+ ┣ 📜product_except_self.py<br />
+ ┣ 📜string_evaluation.py<br />
+ ┗ 📜target_sum_of_three_int.py<br />
 - [Binary Search](./binary_search) <br />
 📦binary_search <br />
  ┣ 📜binary_search.py <br />
