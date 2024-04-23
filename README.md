@@ -127,3 +127,28 @@ grokking_python
  ┃ ┣ 📜trie.py<br />
  ┃ ┣ 📜trie_driver.py<br />
  ┃ ┗ 📜trie_node.py<br />
+📦[advanced_data_structure](./advanced_data_structure/lru_cache/)<br />
+ ┣ 📂[graphs](./advanced_data_structure/graphs/)<br />
+ ┃ ┣ 📜CloneNode.py<br />
+ ┃ ┣ 📜graph_utility.py<br />
+ ┃ ┗ 📜node.py<br />
+ ┣ 📂[lru_cache](./advanced_data_structure/lru_cache/)<br />
+ ┃ ┣ 📜LRU_cache.py<br />
+ ┃ ┣ 📜driver_lru.py<br />
+ ┃ ┣ 📜linked_list.py<br />
+ ┃ ┗ 📜linked_list_node.py<br />
+ ┣ 📂[min_stack](./advanced_data_structure/min_stack/)<br />
+ ┃ ┣ 📜driver_code.py<br />
+ ┃ ┣ 📜min_stack.py<br />
+ ┃ ┗ 📜stack.py<br />
+ ┣ 📂[time_based_key_value_store](./advanced_data_structure/time_based_key_value_store/)<br />
+ ┃ ┣ 📜binary_search.py<br />
+ ┃ ┣ 📜driver_code.py<br />
+ ┃ ┗ 📜time_stamp.py<br />
+ ┣ 📂[topological_sort](./advanced_data_structure/topological_sort/)<br />
+ ┃ ┣ 📜driver_code.py<br />
+ ┃ ┗ 📜topological_graph.py<br />
+ ┗ 📂[trie](./advanced_data_structure/trie/)<br />
+ ┃ ┣ 📜trie.py<br />
+ ┃ ┣ 📜trie_driver.py<br />
+ ┃ ┗ 📜trie_node.py<br />
