@@ -1,5 +1,5 @@
 # grokking_python
-grokking_python
+My solutions to some common data structure and algorithm based problems
 ## Repo for Grokking Python
 - [Misc](./misc/)<br />
 📦misc<br />
