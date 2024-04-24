@@ -1,4 +1,4 @@
-from union_find.union_find_island import UnionFind
+from union_find.islands.union_find import UnionFind
 
 def is_valid(grid, row, col):
     return 0 <= row < len(grid) and 0 <= col < len(grid[0])

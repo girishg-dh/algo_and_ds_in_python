@@ -1,4 +1,4 @@
-from union_find.unionFind import UnionFind
+from union_find.percolation.unionFind import UnionFind
 
 import random
 class Percolation:
