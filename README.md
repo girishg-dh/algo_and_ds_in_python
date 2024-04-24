@@ -1,5 +1,9 @@
 # Algorithm and Data Structures
 #### My solutions to some common data structure and algorithm based problems
+Make sure to export python path like so
+ ```python
+ export PYTHONPATH=$PWD:$PYTHONPATH
+ ```
 Repo link : [Github](https://github.com/girishg-dh/grokking_python/tree/main)
 ## Content List
 - [Misc](./misc/)<br />
