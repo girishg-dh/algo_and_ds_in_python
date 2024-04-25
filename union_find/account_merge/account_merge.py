@@ -1,9 +1,25 @@
-from union_find.account_merge.union_find_account import *
+from union_find.account_merge.union_find_account import unionFind
+from collections import defaultdict
 
 def accounts_merge(accounts):
-     pass
-    
+    uf = unionFind(len(accounts))
+    email_mappings = dict()
+    for i, account in enumerate(accounts):
+        emails = account[1:]
+        for email in emails:
+            if email in email_mappings:
+                if account[0] != accounts[email_mappings[email]][0]:
+                    return
+                uf.union(email_mappings[email], i) 
+            email_mappings[email] = i
+    merged_accounts = defaultdict(list)
+    for email, id in email_mappings.items():
+        merged_accounts[uf.find(id)].append(email)
 
+    merged_accounts_list = []
+    for parent, emails in merged_accounts.items():
+        merged_accounts_list.append([accounts[parent][0]]+sorted(emails))
+    return merged_accounts_list
 
 
 
