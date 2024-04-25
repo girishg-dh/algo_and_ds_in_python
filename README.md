@@ -159,3 +159,16 @@ Repo link : [Github](https://github.com/girishg-dh/grokking_python/tree/main)
  ┃ ┣ 📜trie.py<br />
  ┃ ┣ 📜trie_driver.py<br />
  ┃ ┗ 📜trie_node.py<br />
+ 📦[union_find](./union_find/)<br />
+ ┣ 📂[account_merge](./union_find/account_merge/)<br />
+ ┃ ┣ 📜account_merge.py<br />
+ ┃ ┗ 📜union_find_account.py<br />
+ ┣ 📂[islands](./union_find/islands/)<br />
+ ┃ ┣ 📜num_of_island.py<br />
+ ┃ ┗ 📜union_find_island.py<br />
+ ┣ 📂[percolation](./union_find/percolation/)<br />
+ ┃ ┣ 📜calculate_percolation_threshold.py<br />
+ ┃ ┣ 📜percolation.py<br />
+ ┃ ┗ 📜unionFind.py<br />
+ ┣ 📜delete_num_from_stream.py<br />
+ ┗ 📜longest_consecutive_seq.py<br />
