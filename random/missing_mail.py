@@ -2,17 +2,29 @@ from typing import List
 # Write any import statements here
 
 def getMaxExpectedProfit(N: int, V: List[int], C: int, S: float) -> float:
-  # Write your code here
-  dp = [[0] * (sum(V)+1) for _ in range(N+1)]
-  for v in range(sum(V)+1):
-    dp[N][v] = v - C
-    
-  for i in range(N-1, 0, -1):
-    for v in range(sum(V) + 1):
-      enter_profit = v - C + dp[i+1][0]
-      no_enter_profit = (1 - S) * dp[i+1][min(sum(V), v + V[i])] + S * dp[i+1][0]
-      dp[i][v] = max(enter_profit, no_enter_profit)
-  return dp[1][0]
+    # Create a list of strategies for each day where each entry is 
+    # (remaining_value, collected_profit)
+    best_strategy = [(0,0)]
+    for mail_price in V:
+        #Add strategy for the new day
+        best_strategy.insert(0, (0, 0))
+
+        # For all remainig value must be reduced by prob of stealing
+        best_strategy = [(remaining_value * (1 - S), collected_profit) for remaining_value, collected_profit in best_strategy]
+
+        # Option 1: Pick up today
+        # Find the best strategy so far and add current profit
+        best_of_all = max(collected_profit + remaining_value for remaining_value, collected_profit in best_strategy) + mail_price - C
+        best_strategy[0] = (0, best_of_all)
+
+        # Option 2: Don't pick up today
+        # Add mail_price to remaining value
+        for i in range(1, len(best_strategy)):
+            remaining_value, collected_profit = best_strategy[i]
+            best_strategy[i] = (remaining_value + mail_price, collected_profit)
+        # Repeat for next day 
+    return max(collected_profit for remaining_value, collected_profit in best_strategy)
+        
 
 
 N = 5
