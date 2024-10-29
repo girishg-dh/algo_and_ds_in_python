@@ -15,14 +15,46 @@ If your current cell contains a portal, teleport to any other cell in the grid c
 Determine the minimum number of seconds required to reach any exit, if it's possible to do so at all. If it's not possible, return -1 instead.
 """
 from typing import List
+from collections import deque, defaultdict
+
 # Write any import statements here
 
 def getSecondsRequired(R: int, C: int, G: List[List[str]]) -> int:
   # Write your code here
-  return 0
-
+  portalDict = defaultdict(list)
+  next_positions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
+  alphabets = 'abcdefghijklmnopqrstuvwxyzS'
+  for i in range(R):
+    for j in range(C):
+      if G[i][j] in alphabets:
+        portalDict[G[i][j]].append((i, j))
+  solutions = []
+  visited = set()
+  queue = deque()
+  startR, startC = portalDict['S'][0]
+  queue.append((startR, startC, 0))
+  # visited.add((startR, startC))
+  while queue:
+    r, c, time = queue.popleft()
+    if (r, c) in visited or G[r][c] == '#':
+      continue
+    visited.add((r, c))
+    if G[r][c] == 'E':
+      solutions.append(time)
+      continue
+    currentValue = G[r][c]
+    if currentValue in alphabets:
+      for portalR, portalC in portalDict[currentValue]:
+        if portalR == r and portalC == c:
+          continue
+        queue.append((portalR, portalC, time + 1))
+    for nextR, nextC in next_positions:
+      if 0 <= r + nextR < R and 0 <= c + nextC < C:
+        queue.append((r + nextR, c + nextC, time + 1))
+  return -1 if len(solutions) == 0 else min(solutions)
 
 
 print(getSecondsRequired(3, 3, [['.', 'E', '.'], ['.', '#', 'E'], ['.', 'S', '#']]))
+print(getSecondsRequired(3, 4, [['a','.','S','a'],['#','#','#','#'],['E','b','.','b']]))
 print(getSecondsRequired(3, 4, [['a','.','S','a'],['#','#','#','#'],['E','b','.','a']]))
-print(getSecondsRequired(1, 9, ['x','S', '.', '.', 'x', '.', '.', 'E', 'x']))
+print(getSecondsRequired(1, 9, [['x','S', '.', '.', 'x', '.', '.', 'E', 'x']]))
