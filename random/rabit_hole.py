@@ -15,7 +15,23 @@ from typing import List
 
 def getMaxVisitableWebpages(N: int, L: List[int]) -> int:
   # Write your code here
-  return 0
+  max_distance_traversed = 0
+  max_distance_dict = dict()
+  for i in range(N):
+    if i in max_distance_dict:
+      continue
+    distance_traversed = 1
+    visited = {i}
+    current, next = i, L[i] - 1
+    while next not in visited:
+      current = next
+      distance_traversed += 1
+      visited.add(current)
+      max_distance_dict[current] = distance_traversed
+      next = L[current] - 1
+    max_distance_traversed = max(max_distance_traversed, distance_traversed)
+  return max_distance_traversed 
+
 
 
 print(getMaxVisitableWebpages(4, [4, 1, 2, 1]))
